@@ -158,3 +158,92 @@ h6 {
 .color {
     color: hsl(333, 80%, 67%);
 }
+@media screen and (max-width:576px) {
+    body{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .row-2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .col-1{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .col-2{
+        position: relative;
+        left: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .col-3{
+        position: relative;
+        left: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    body{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h1{
+        width: 100%;
+    }
+    .des{
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+    .row-2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .col-1{
+        width: fit-content;
+        margin: auto auto;
+    }
+    .col-2{
+        position: relative;
+        left: 0;
+        width: fit-content;
+        margin: auto auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .col-3{
+        position: relative;
+        left: 0;
+        width: fit-content;
+        margin: auto auto;
+    }
+    .author-1{
+       margin: auto auto;
+    }
+    .author-2{
+       margin: auto auto;
+    }
+    .author-3{
+       margin: auto auto;
+    }
+}
